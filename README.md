@@ -13,23 +13,26 @@ java -jar cp.jar [options]
 
 Some examples:
 
-1. Type the content of a text file:
+- Type the content of a text file:
 ```Batchfile
 java –jar cp.jar –datasource "c:/temp/test.txt"
 ```
-2. The robot waits 2 seconds for the user to focus on the window that it will write on. To change the delay to another value (e.g. 10 seconds):
+
+- The robot waits 2 seconds for the user to focus on the window that it will write on. To change the delay to another value (e.g. 10 seconds):
 ```Batchfile
 java –jar cp.jar –delay 10
 ```
-3. The robot waits 1 ms between key strokes. Sometimes the target environment cannot process key strokes so fast and thus we might need to increase this value (e.g. 10 ms):
+- The robot waits 1 ms between key strokes. Sometimes the target environment cannot process key strokes so fast and thus we might need to increase this value (e.g. 10 ms):
 ```Batchfile
 java –jar cp.jar –interval 10
 ```
-4. Options can be combined:
+
+- Options can be combined:
 ```Batchfile
 java –jar cp.jar –interval 10 –delay 10 -datasource "c:/temp/teste.txt"
 ```
-5. Finally, to print a (not very useful) quick guide: 
+
+- Finally, to print a (not very useful) quick guide: 
 ```Batchfile
 java –jar cp.jar –help 
 ```
